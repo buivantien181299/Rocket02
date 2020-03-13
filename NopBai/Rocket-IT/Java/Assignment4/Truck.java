@@ -1,4 +1,3 @@
-package PracticInheritan;
 
 public class Truck extends Car {
 	int weight;

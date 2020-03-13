@@ -1,6 +1,5 @@
-package PracticInheritan;
 
-public class Ford extends Car {
+public class Ford extends Car{
 	int year;
 	int manufacturerDiscount;
 	

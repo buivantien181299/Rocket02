@@ -1,4 +1,3 @@
-package PracticInheritan;
 
 public class Sedan extends Car {
 	int length;

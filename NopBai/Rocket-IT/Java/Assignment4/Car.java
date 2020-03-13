@@ -1,4 +1,3 @@
-package PracticInheritan;
 
 public class Car {
 	int speed;
@@ -10,7 +9,5 @@ public class Car {
 	}
 	
 	String color;
-	double getSalePrice(double price) {
-		return price;
-	}
+	
 }
