@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bảng nhân viên</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css" media="screen">
+    
+    .table {
+      border: 1px solid gray;
+    }
+
+    .table thead {
+      color: #000;
+      background: #fff;
+    }
+
+    .pagination {
+      margin: auto;
+      width: 50%;
+    }
+
+  </style>
+</head>
+<body>
+	<div class="container" style="border: 1px solid #000">
+ 		<h2>Quản lý nhân viên</h2>         
+  		<table class="table table-dark table-striped table-bordered">
+    		<thead>
+      			<tr>
+      				<th>ID</th>
+        			<th>Họ và tên</th>
+        			<th>Khoa/Phòng ban</th>
+        			<th>Chình độ/Chức vụ</th>
+        			<th>Phụ cấp</th>
+        			<th>Số tiết dạy/Ngày công</th>
+        			<th>Tổng lương</th>
+      			</tr>
+   			</thead>
+    	  <tbody>
+     		 <tr>
+        		<td>0</td>
+       			<td>Phạm Hải</td>
+        		<td>Toán</td>
+        		<td>Cử nhân</td>
+        		<td>2000</td>
+        		<td>2</td>
+        		<td>7000000</td>
+      		</tr>
+     		 <tr>
+        		<td>0</td>
+       			<td>Đặng Hường</td>
+        		<td>Đào tạo</td>
+        		<td>Nhân viên</td>
+        		<td>2000</td>
+        		<td>3</td>
+        		<td>6000000</td>
+      		  </tr>
+      		<tr>
+        		<td>0</td>
+       			<td>Hoang Viet Thang</td>
+        		<td>Lý</td>
+        		<td>Cử nhân</td>
+        		<td>3000</td>
+        		<td>2</td>
+        		<td>5000000</td>
+      		</tr>
+      		  <tr>
+      			<td>0</td>
+       			<td>Nguyen Trung kien</td>
+        		<td>Toán</td>
+        		<td>Cử nhân</td>
+        		<td>2000</td>
+        		<td>2</td>
+        		<td>3000000</td>
+      		</tr>
+      		  <tr>
+      			<td>0</td>
+       			<td>Nguyen Van Hau</td>
+        		<td>Su</td>
+        		<td>Cử nhân</td>
+        		<td>2000</td>
+        		<td>2</td>
+        		<td>7000000</td>
+      		</tr>
+          <tr>
+            <td colspan="7" style="background: #e8e8e8;">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </td>
+          </tr>
+
+    	  </tbody>
+  		</table>
+      
+  		<form  class="">
+      	<label for="text">Tên nhân viên: </label>
+      	<input type="text" class="" id="text"  placeholder="Nhập tên nhân viên" name="text"> 
+        
+        <br>     
+   			<button type="submit" class="btn btn btn-dark">Load Data</button>
+   			<button type="submit" class="btn btn btn-dark">Thêm nhân viên</button>
+   			<button type="submit" class="btn btn btn-dark">Sắp xếp</button>
+  		</form>
+	</div>
+</body>
+</html>
